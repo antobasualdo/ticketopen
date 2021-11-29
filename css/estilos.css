@@ -14,6 +14,7 @@ body{
     flex-direction: column;
     font-family: 'Alegreya Sans', sans-serif;
     background-color: #01283f;
+    width: 100vw;
 }
 
 
@@ -520,6 +521,7 @@ h1{
     align-items: center;
     color: #fff1e8;
     margin: 7rem 0rem 7rem 0rem;
+    width: 100vw;
 }
 
 iframe{
