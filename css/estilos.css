@@ -1,0 +1,1325 @@
+@import url('https://fonts.googleapis.com/css2? family = Alegreya + Sans: ital @ 1 & display = swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/*ESTILOS PARA EL BODY*/
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #01283f;
+}
+
+
+
+
+
+
+
+/*HEADER INDEX*/
+
+
+.headEr{
+    display: flex;
+    flex-direction: column;
+    height: 43rem;
+    width: 100vw;
+    background-image: url("../media/index.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logoYnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}    
+
+.imgLogo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+.imgLogo img{
+    height: 11rem;
+    width: 11rem;
+    animation-duration: 3s;
+}
+
+.contNav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.navbar{
+    height: 8rem;
+    animation-duration: 2s;
+}
+
+
+.itemLi a{
+    color: #ffffff !important;
+    font-size: 23px;
+    align-items: flex-start;
+}
+
+.itemLi a:hover{
+    transition: all .3s;
+    color:#fff1e8 !important;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+h1{
+    color:#ffffff;
+    font-style: italic;
+    font-size: 8rem;
+    text-align: center;
+    word-spacing: 1rem;
+    text-shadow: 15px 15px 10px rgb(0, 0, 0);
+    animation-duration: 20s;
+    margin-top: 9rem;
+}
+
+
+.ph1{
+    color:#ffffff;
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    word-spacing: 3px;
+    text-shadow: 15px 15px 10px rgb(0, 0, 0);
+    animation-duration: 5s;
+}
+
+
+
+/*ESTILOS PARA TIT DE LA SECTION INDEX*/
+
+.tituloSection{
+    height: 15rem;
+    width: 100vw;
+    background-color: #89B0AE;
+    margin-top: 1rem;
+}
+
+.tituloSection div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: linear-gradient(to right, #43C6AC, #191654);
+    
+}
+
+.decoSection{
+    align-self: flex-end;
+    height: 15rem;
+    width: 15rem;
+}
+
+.h2Section{
+    font-size: 4rem;
+    font-style: italic;
+    color: #ffffff;
+    padding-top: 4rem;
+    text-decoration: none;
+}
+
+
+.h2Section:hover{
+    transition: all .3s;
+    color:#fff1e8 !important;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+
+/*ESTILOS PARA SECTION INDEX*/
+
+.serviciosBox{
+    background-image: url("../media/fondoservicios.png");
+    background-repeat: repeat;
+}   
+
+.contenedorHije{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    
+}
+
+.contenedorHije img{
+    height: 22rem;
+    width: 25rem;
+    box-shadow: black;
+}
+
+
+.overlay{
+    position: absolute;
+    height: 22rem;
+    width: 25rem;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #ffd6ba;
+}
+
+
+.contenedorHije:hover .overlay {
+    opacity: 0.6;
+    transform: scale(1);
+    transition: transform 700ms, opacity 700ms;
+}
+
+
+.text{
+    color: black;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    opacity: 1;
+    text-align: center;
+}
+
+
+/*ESTILOS PARA BANNER INDEX*/
+
+.banNer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 35rem;
+    width: 100vw;
+    background-image: url("../media/banner.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.pBanner{
+    align-self: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 15px 15px 10px rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+/*ESTILOS PARA FOOTER*/
+
+.footerLogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20rem;
+    width: 100vw;
+}
+
+.imgFooter{
+    height: 20rem;
+    width: 20rem;
+}
+
+.boxFooter{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
+    width: 100vw;
+    height: 18rem;
+}
+
+
+.footEnlaces{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin-top: 1rem;
+}
+
+.footEnlaces a{
+    display: block;
+    text-decoration: none;
+    padding: 1rem;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    color: #555B6E;
+    
+}
+
+.footEnlaces a:hover{
+    color: #ffffff;
+    text-shadow: 3px 3px 3px rgb(255, 220, 187);
+}
+
+.footerInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.info{
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px rgb(92, 87, 77);
+    margin-top: 2rem;
+}
+
+.botonRedes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonRedes img{
+    height: 5rem;
+    width: 5rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+
+
+/*ESTILOS PARA PAGE DESTINOS*/
+
+.headDes{
+    display: flex;
+    flex-direction: column;
+    height: 43rem;
+    background-image: url("../media/destinos.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+}
+
+.bannerDes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 35rem;
+    width: 100vw;
+    background-image: url("../media/bannerdes.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/*ESTILOS CONTAINER CARDS*/
+
+.containerCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 3rem 0rem 3rem 0rem;
+}
+
+
+.styleCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffefe4 !important;
+    border-style: none;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.precioCards{
+    font-weight: bold;
+}
+
+.styleCard img{
+    height: 15rem !important;
+    width: 20rem;
+}
+
+.myBtn{
+    background-color: #ffffff !important;
+    color: gray !important;
+    border: solid 1px gray;
+}
+
+.myBtn:hover{
+    background-color: #def8f7 !important;
+    color: black !important;
+    border: solid 1px black;
+}
+
+
+
+/*ESTILOS PARA PAGE COTIZADOR*/
+
+.headCot{
+    display: flex;
+    flex-direction: column;
+    height: 43rem;
+    background-image: url("../media/cotizador.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+}
+
+.cotizadorForm{
+    margin-top: 3rem;
+    color: #fff1e8;
+}
+
+.myModal{
+    color: gray !important;
+}
+
+
+
+
+/*ESTILOS PARA PAGE NOSOTRAS*/
+
+.headNos{
+    display: flex;
+    flex-direction: column;
+    height: 43rem;
+    background-image: url("../media/nosotras.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+}
+
+
+
+/*ESTILOS PARA TITULO QUIENES SOMOS*/
+.pSectionnos{
+    font-size: 1rem;
+    font-style: italic;
+    color: #ffffff;
+    padding-top: 4rem;
+    text-decoration: none;
+}
+
+
+
+/*ESTILOS PARA SECTION CAROUSEL*/
+.carouselDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    margin: 3rem 0rem 3rem 0rem;
+    background-image: url("../media/deconosotras.png");
+    background-repeat: repeat;
+}
+
+.imgCarousel img{
+    position: cover;
+    height: 40rem;
+    width: 40rem !important;
+}
+
+.pNosotras{
+    align-self: center;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+/*ESTILOS PARA BANNER NOSOTRAS*/
+.bannerNos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+    height: 35rem;
+    width: 100vw;
+    background-image: url("../media/bannernos.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+/*ESTILOS PARA CONTACTO*/
+
+.headContact{
+    display: flex;
+    flex-direction: column;
+    height: 43rem;
+    background-image: url("../media/contacto.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+}
+
+
+
+/*ESTILOS PARA DEJANOS TU CONSULTA*/
+.h3Contacto{
+    font-size: 3rem;
+    font-style: italic;
+    color: #ffffff;
+    padding-top: 4rem;
+    text-decoration: none; 
+}
+
+.h3Contacto:hover{
+    transition: all .3s;
+    color:#fff1e8 !important;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+
+/*ESTILOS PARA FORMULARIO CONTACTO*/
+.containerForm{
+    color:#fff1e8;
+    margin-top: 3rem;
+}
+
+.labelFor{
+    margin-top: 3rem;
+    color: #fff1e8;
+}
+
+
+
+/*ESTILOS PARA CONTAINER MAPA*/
+.contMapa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff1e8;
+    margin: 7rem 0rem 7rem 0rem;
+}
+
+iframe{
+    width: 60rem;
+    height: 25rem;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIAS QUERIES*/
+
+
+/*RESOLUCION PARA DISPOSITIVOS MOVILES MUY PEQUEÑOS*/
+@media(max-width: 575px){
+
+
+        /*HEADER INDEX*/
+
+
+        .logoYnav{
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            height: 10rem;
+            width: 100vw;
+        }    
+
+        .imgLogo{
+            display: flex;
+            flex-direction: row;
+            height: 9rem;
+            width: 9rem;
+        }
+
+        .imgLogo img{
+            height: 8rem;
+            width: 8rem;
+            animation-duration: 3s;
+        }
+
+        .contNav{
+            display: flex;
+            flex-direction: row;
+            width: 10rem;
+        }
+
+        .navbar{
+            height: 4rem;
+            animation-duration: 2s;
+        }
+
+
+        .itemLi a{
+            color: #ffffff !important;
+            font-size: 13px;
+            align-items: center;
+        }
+
+
+        h1{
+            color:#ffffff;
+            font-style: italic;
+            font-size: 4rem;
+            text-align: center;
+            word-spacing: 1rem;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+            animation-duration: 20s;
+            margin-top: 9rem;
+        }
+
+
+        .ph1{
+            color:#ffffff;
+            font-style: italic;
+            font-size: 18px;
+            text-align: center;
+            word-spacing: 3px;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+            animation-duration: 5s;
+        }
+
+
+        /*ESTILOS PARA TIT DE LA SECTION INDEX*/
+
+        .tituloSection{
+            height: 12rem;
+            width: 100vw;
+            background-color: #89B0AE;
+            margin-top: 1rem;
+        }
+
+        .tituloSection div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: linear-gradient(to bottom right, #43C6AC, #191654);
+            height: 12rem;
+        }
+
+        .decoSection{
+            display: none;
+        }
+
+        .h2Section{
+            font-size: 45px;
+            font-style: italic;
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 0px !important;
+        }
+
+
+
+        
+        /*ESTILOS PARA SECTION INDEX*/ 
+
+        .contenedorHije img{
+            height: 15rem;
+            width: 80%;
+            border-style: none;
+            box-shadow: black;
+        }
+
+
+        .overlay{
+            position: absolute;
+            height: 15rem;
+            width: 75%;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #ffd6ba;
+            border-style: none;
+        }
+
+
+        /*ESTILOS PARA BANNER INDEX*/
+
+
+        .pBanner{
+            align-self: center;
+            color: #ffffff;
+            font-size: 27px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-style: italic;
+            text-shadow: 13px 13px 8px rgb(0, 0, 0);
+        }
+
+
+        /*ESTILOS PARA FOOTER*/
+
+        .footerLogo{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 15rem;
+            width: 100vw;
+        }
+
+        .imgFooter{
+            height: 15rem;
+            width: 15rem;
+        }
+
+
+        .footEnlaces{
+            display: none;
+        }
+
+        .info{
+            font-size: 12px;
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 3px 3px 3px rgb(92, 87, 77);
+            margin-top: 2rem;
+        }
+
+        .botonRedes{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+
+
+
+
+        /*ESTILOS PARA PAGE DESTINOS*/
+
+
+        .containerCards{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 3rem 0rem 3rem 0rem;
+        }
+        
+
+        .styleCard img{
+            height: 14rem !important;
+            width: 20rem;
+        }
+
+
+        .pBanner{
+            align-self: center;
+            color: #ffffff;
+            font-size: 29px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-style: italic;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        }
+    
+
+        .h3Contacto{
+            font-size: 2rem;
+            font-style: italic;
+            color: #ffffff;
+            text-decoration: none; 
+            text-align: center;
+            padding-top: 0px !important;
+        }
+
+
+
+
+
+        /*ESTILOS PARA NOSOTRAS*/
+
+        .pSectionnos{
+            font-size: 14px;
+            font-style: italic;
+            color: #ffffff;
+            padding-top: 0rem !important;
+            text-decoration: none;
+        }
+        
+
+        .imgCarousel img{
+            position: cover;
+            height: 25rem;
+            width: 30rem !important;
+        }
+        
+        .pNosotras{
+            align-self: center;
+            font-size: 15px;
+            color: #ffffff;
+            text-align: center;
+        }
+        
+
+
+
+
+}
+
+
+
+
+/*RESOLUCION PARA DISPOSITIVOS MOVILES PEQUEÑOS*/
+@media(min-width: 576px) and (max-width: 767px){
+        .pSectionnos{
+            font-size: 11px;
+            font-style: italic;
+            color: #ffffff;
+            padding-top: 0rem !important;
+            text-decoration: none;
+        }
+    
+
+        .logoYnav{
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            height: 10rem;
+            width: 100vw;
+        }    
+
+        .imgLogo{
+            display: flex;
+            flex-direction: row;
+            height: 9rem;
+            width: 9rem;
+            margin-top: 0rem !important;
+        }
+
+        .imgLogo img{
+            height: 8rem;
+            width: 8rem;
+            animation-duration: 3s;
+        }
+
+        .contNav{
+            display: flex;
+            flex-direction: row;
+            width: 5rem;
+        }
+
+        .navbar{
+            height: 4rem;
+            animation-duration: 2s;
+        }
+
+
+        .itemLi a{
+            color: #ffffff !important;
+            font-size: 15px;
+            align-items: center;
+        }
+
+        .itemLi a:hover{
+            transition: all .3s;
+            color:#fff1e8 !important;
+            text-shadow: 5px 5px 5px rgb(0, 0, 0);
+        }
+
+
+        h1{
+            color:#ffffff;
+            font-style: italic;
+            font-size: 5rem;
+            text-align: center;
+            word-spacing: 1rem;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+            animation-duration: 20s;
+            margin-top: 9rem;
+        }
+
+
+        .ph1{
+            color:#ffffff;
+            font-style: italic;
+            font-size: 18px;
+            text-align: center;
+            word-spacing: 3px;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+            animation-duration: 5s;
+        }
+
+
+        /*ESTILOS PARA TIT DE LA SECTION INDEX*/
+
+        .tituloSection{
+            height: 12rem;
+            width: 100vw;
+            background-color: #89B0AE;
+            margin-top: 1rem;
+        }
+
+        .tituloSection div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-image: linear-gradient(to bottom right, #43C6AC, #191654);
+            height: 12rem;
+            width: 100vw;
+        }
+
+        .decoSection{
+            display: none;
+        }
+
+        .h2Section{
+            font-size: 4rem;
+            font-style: italic;
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 0px !important;
+        }
+
+
+        .h2Section:hover{
+            transition: all .3s;
+            color:#fff1e8 !important;
+            text-shadow: 5px 5px 5px rgb(0, 0, 0);
+        }
+
+
+        
+        /*ESTILOS PARA SECTION INDEX*/ 
+
+        .contenedorHije{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+            position: relative;
+            
+        }
+
+        .contenedorHije img{
+            height: 16rem;
+            width: 80vw;
+            border-style: none;
+            border-width: 4px; 
+            box-shadow: black;
+        }
+
+
+        .overlay{
+            position: absolute;
+            height: 16rem;
+            width: 80vw;
+            opacity: 0;
+            transition: .5s ease;
+            background-color: #ffd6ba;
+            border-style: none;
+            border-width: 4px;
+        }
+
+
+        .contenedorHije:hover .overlay {
+            opacity: 0.6;
+            transform: scale(1);
+            transition: transform 700ms, opacity 700ms;
+        }
+
+
+        .text{
+            color: black;
+            font-size: 2rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            opacity: 1;
+            text-align: center;
+        }
+
+
+        /*ESTILOS PARA BANNER INDEX*/
+
+        .banNer{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 2rem;
+            height: 30rem;
+            width: 100vw;
+            background-image: url("../media/banner.png");
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .pBanner{
+            align-self: center;
+            color: #ffffff;
+            font-size: 30px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-style: italic;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        }
+
+
+        /*ESTILOS PARA FOOTER*/
+
+        .footerLogo{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 15rem;
+            width: 100vw;
+        }
+
+        .imgFooter{
+            height: 15rem;
+            width: 15rem;
+        }
+
+        .boxFooter{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            background-image: linear-gradient(to right, #d9a7c7, #fffcdc);
+            width: 100vw;
+            height: 18rem;
+        }
+
+
+        .footEnlaces{
+            display: none;
+        }
+
+
+        .footerInfo{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .info{
+            font-size: 12px;
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 3px 3px 3px rgb(92, 87, 77);
+            margin-top: 2rem;
+        }
+
+        .botonRedes{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .botonRedes img{
+            height: 5rem;
+            width: 5rem;
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+
+        /*ESTILOS PARA PAGE DESTINOS*/
+
+
+        .containerCards{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 3rem 0rem 3rem 0rem;
+        }
+        
+
+        .styleCard img{
+            height: 14rem !important;
+            width: 20rem;
+            align-self: center;
+
+        }
+
+
+        .pBanner{
+            align-self: center;
+            color: #ffffff;
+            font-size: 29px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-style: italic;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        }
+    
+
+        .h3Contacto{
+            font-size: 2rem;
+            font-style: italic;
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+            padding-top: 0px !important;
+        }   
+    
+
+
+        /*ESTILOS PARA NOSOTRAS*/
+
+        .pSectionnos{
+            font-size: 12px;
+            font-style: italic;
+            color: #ffffff;
+            padding-top: 0rem !important;
+            text-decoration: none;
+        }
+        
+
+        .imgCarousel img{
+            position: cover;
+            height: 25rem;
+            width: 30rem !important;
+        }
+        
+        .pNosotras{
+            align-self: center;
+            font-size: 15px;
+            color: #ffffff;
+            text-align: center;
+        }
+        
+        .h3Contacto{
+            font-size: 2rem;
+            font-style: italic;
+            color: #ffffff;
+            padding-top: 0rem !important;
+            text-align: center;
+    
+        }
+        
+        .h3Contacto:hover{
+            transition: all .3s;
+            color:#fff1e8 !important;
+            text-shadow: 5px 5px 5px rgb(0, 0, 0);
+        }
+
+}
+
+
+
+
+
+/*RESOLUCION PARA TABLETS*/
+@media(min-width: 768px) and (max-width: 991px){
+
+    .itemLi a{
+        color: #ffffff !important;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    h1{
+        color:#ffffff;
+        font-style: italic;
+        font-size: 7rem;
+        text-align: center;
+        word-spacing: 1rem;
+        text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        animation-duration: 20s;
+        margin-top: 9rem;
+    }
+
+    .contenedorHije{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+        position: relative;
+        
+    }
+
+    .contenedorHije img{
+        height: 15rem;
+        width: 18rem;
+        border-style: none;
+        border-width: 4px; 
+        box-shadow: black;
+    }
+
+
+    .overlay{
+        position: absolute;
+        height: 15rem;
+        width: 18rem;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #ffd6ba;
+        border-style: none;
+        border-width: 4px;
+    }
+
+
+    .contenedorHije:hover .overlay {
+        opacity: 0.6;
+        transform: scale(1);
+        transition: transform 700ms, opacity 700ms;
+    }
+
+
+    .containerCards{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .pSectionnos{
+        font-size: 1rem;
+        font-style: italic;
+        color: #ffffff;
+        padding-top: 1rem !important;
+        text-decoration: none;
+    }
+
+
+    .imgCarousel img{
+        position: cover;
+        height: 25rem;
+        width: 30rem !important;
+    }
+
+    .pNosotras{
+        align-self: center;
+        font-size: 15px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .h3Contacto{
+        font-size: 40px;
+        font-style: italic;
+        color: #ffffff;
+        text-decoration: none; 
+        text-align: center;
+    }
+
+    .h3Contacto:hover{
+        transition: all .3s;
+        color:#fff1e8 !important;
+        text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    }
+
+
+
+}
+
+
+
+@media(min-width: 992px) and (max-width: 1400px){
+        .logoYnav{
+            display: flex;
+            flex-flow: row;
+            align-items: center;
+            height: 12rem;
+            width: 100vw;
+        }    
+
+        .imgLogo{
+            display: flex;
+            flex-direction: row;
+            height: 9rem;
+            width: 9rem;
+        }
+
+        .imgLogo img{
+            height: 11rem;
+            width: 11rem;
+            animation-duration: 3s;
+        }
+
+        .contNav{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
+        .navbar{
+            height: 8rem;
+            width: 5rem     ;
+            animation-duration: 2s;
+        }
+        
+        
+        .itemLi a{
+            color: #ffffff !important;
+            font-size: 23px;
+            align-items: flex-start;
+        }
+        
+        .itemLi a:hover{
+            transition: all .3s;
+            color:#fff1e8 !important;
+            text-shadow: 5px 5px 5px rgb(0, 0, 0);
+        }
+
+        
+
+        .containerCards{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 3rem 0rem 3rem 0rem;
+        }
+        
+
+        .styleCard img{
+            height: 13rem !important;
+            width: 20rem;
+        }
+
+        .pBanner{
+            align-self: center;
+            color: #ffffff;
+            font-size: 29px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            font-style: italic;
+            text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        }
+
+
+        .h3Contacto{
+            font-size: 3rem;
+            font-style: italic;
+            color: #ffffff;
+            text-decoration: none; 
+            text-align: center;
+            padding-top: 5rem;
+        }
+}
