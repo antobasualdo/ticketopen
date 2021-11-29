@@ -525,7 +525,7 @@ h1{
 }
 
 iframe{
-    width: 60rem;
+    width: 100vw;
     height: 25rem;
     margin-top: 3rem;
 }
