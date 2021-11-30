@@ -8,7 +8,6 @@
 
 /*ESTILOS PARA EL BODY*/
 
-
 body{
     display: flex;
     flex-direction: column;
@@ -18,14 +17,7 @@ body{
 }
 
 
-
-
-
-
-
-/*HEADER INDEX*/
-
-
+/*HEADER*/
 .headEr{
     display: flex;
     flex-direction: column;
@@ -37,6 +29,7 @@ body{
     background-position: center;
 }
 
+/*NAV*/
 .logoYnav{
     display: flex;
     flex-direction: row;
@@ -80,7 +73,7 @@ body{
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-
+/*TITULO Y SUBTITULO HEADER*/
 h1{
     color:#ffffff;
     font-style: italic;
@@ -92,7 +85,6 @@ h1{
     margin-top: 9rem;
 }
 
-
 .ph1{
     color:#ffffff;
     font-style: italic;
@@ -103,10 +95,7 @@ h1{
     animation-duration: 5s;
 }
 
-
-
-/*ESTILOS PARA TIT DE LA SECTION INDEX*/
-
+/*TITULO SECTIONS*/
 .tituloSection{
     height: 15rem;
     width: 100vw;
@@ -136,17 +125,13 @@ h1{
     text-decoration: none;
 }
 
-
 .h2Section:hover{
     transition: all .3s;
     color:#fff1e8 !important;
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-
-
-/*ESTILOS PARA SECTION INDEX*/
-
+/*IMAGINES DEL INDEX*/
 .serviciosBox{
     background-image: url("../media/fondoservicios.png");
     background-repeat: repeat;
@@ -167,7 +152,6 @@ h1{
     box-shadow: black;
 }
 
-
 .overlay{
     position: absolute;
     height: 22rem;
@@ -176,7 +160,6 @@ h1{
     transition: .5s ease;
     background-color: #ffd6ba;
 }
-
 
 .contenedorHije:hover .overlay {
     opacity: 0.6;
@@ -197,12 +180,10 @@ h1{
     text-align: center;
 }
 
-
-/*ESTILOS PARA BANNER INDEX*/
-
+/*BANNER INDEX*/
 .banNer{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     margin-top: 2rem;
     height: 35rem;
@@ -223,16 +204,7 @@ h1{
     text-shadow: 15px 15px 10px rgb(0, 0, 0);
 }
 
-
-
-
-
-
-
-
-
-/*ESTILOS PARA FOOTER*/
-
+/*FOOTER*/
 .footerLogo{
     display: flex;
     flex-direction: row;
@@ -254,7 +226,6 @@ h1{
     width: 100vw;
     height: 18rem;
 }
-
 
 .footEnlaces{
     display: flex;
@@ -308,8 +279,13 @@ h1{
 
 
 
+
+
+
+
 /*ESTILOS PARA PAGE DESTINOS*/
 
+/*HEADER DESTINOS*/
 .headDes{
     display: flex;
     flex-direction: column;
@@ -321,9 +297,10 @@ h1{
     width: 100vw;
 }
 
+/*BANNER DESTINOS*/
 .bannerDes{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     margin-top: 2rem;
     height: 35rem;
@@ -335,15 +312,13 @@ h1{
 }
 
 
-/*ESTILOS CONTAINER CARDS*/
-
+/*CARDS*/
 .containerCards{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 3rem 0rem 3rem 0rem;
 }
-
 
 .styleCard{
     display: flex;
@@ -380,8 +355,9 @@ h1{
 
 
 
-/*ESTILOS PARA PAGE COTIZADOR*/
+/*ESTILOS PARA COTIZADOR*/
 
+/*HEADER COTIZADOR*/
 .headCot{
     display: flex;
     flex-direction: column;
@@ -393,6 +369,7 @@ h1{
     width: 100vw;
 }
 
+/*FORMULARIO COTIZADOR*/
 .cotizadorForm{
     margin-top: 3rem;
     color: #fff1e8;
@@ -405,8 +382,9 @@ h1{
 
 
 
-/*ESTILOS PARA PAGE NOSOTRAS*/
+/*ESTILOS PARA NOSOTRAS*/
 
+/*HEADER NOSOTRAS*/
 .headNos{
     display: flex;
     flex-direction: column;
@@ -418,9 +396,7 @@ h1{
     width: 100vw;
 }
 
-
-
-/*ESTILOS PARA TITULO QUIENES SOMOS*/
+/*TITULO SECTION NOSOTRAS*/
 .pSectionnos{
     font-size: 1rem;
     font-style: italic;
@@ -429,9 +405,7 @@ h1{
     text-decoration: none;
 }
 
-
-
-/*ESTILOS PARA SECTION CAROUSEL*/
+/*CAROUSEL NOSOTRAS*/
 .carouselDiv{
     display: flex;
     flex-direction: row;
@@ -454,11 +428,10 @@ h1{
     text-align: center;
 }
 
-
-/*ESTILOS PARA BANNER NOSOTRAS*/
+/*BANNER NOSOTRAS*/
 .bannerNos{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center;
     margin-top: 2rem;
     height: 35rem;
@@ -470,8 +443,11 @@ h1{
 }
 
 
+
+
 /*ESTILOS PARA CONTACTO*/
 
+/*HEADER CONTACTO*/
 .headContact{
     display: flex;
     flex-direction: column;
@@ -483,9 +459,7 @@ h1{
     width: 100vw;
 }
 
-
-
-/*ESTILOS PARA DEJANOS TU CONSULTA*/
+/*TITULO SECTION CONTACTO*/
 .h3Contacto{
     font-size: 3rem;
     font-style: italic;
@@ -500,8 +474,7 @@ h1{
     text-shadow: 5px 5px 5px rgb(0, 0, 0);
 }
 
-
-/*ESTILOS PARA FORMULARIO CONTACTO*/
+/*FORMULARIO CONTACTO*/
 .containerForm{
     color:#fff1e8;
     margin-top: 3rem;
@@ -512,9 +485,7 @@ h1{
     color: #fff1e8;
 }
 
-
-
-/*ESTILOS PARA CONTAINER MAPA*/
+/*MAPA CONTACTO*/
 .contMapa{
     display: flex;
     flex-direction: column;
@@ -548,10 +519,7 @@ iframe{
 /*RESOLUCION PARA DISPOSITIVOS MOVILES MUY PEQUEÑOS*/
 @media(max-width: 575px){
 
-
-        /*HEADER INDEX*/
-
-
+        /*NAV*/
         .logoYnav{
             display: flex;
             flex-flow: row;
@@ -573,6 +541,7 @@ iframe{
             animation-duration: 3s;
         }
 
+        
         .contNav{
             display: flex;
             flex-direction: row;
@@ -591,7 +560,7 @@ iframe{
             align-items: center;
         }
 
-
+        /*TITULO Y SUBTITULO HEADER*/
         h1{
             color:#ffffff;
             font-style: italic;
@@ -603,7 +572,6 @@ iframe{
             margin-top: 9rem;
         }
 
-
         .ph1{
             color:#ffffff;
             font-style: italic;
@@ -614,9 +582,7 @@ iframe{
             animation-duration: 5s;
         }
 
-
-        /*ESTILOS PARA TIT DE LA SECTION INDEX*/
-
+        /*TITULO SECTION*/
         .tituloSection{
             height: 12rem;
             width: 100vw;
@@ -645,18 +611,13 @@ iframe{
             padding-top: 0px !important;
         }
 
-
-
-        
-        /*ESTILOS PARA SECTION INDEX*/ 
-
+        /*IMAGENES INDEX*/
         .contenedorHije img{
             height: 15rem;
             width: 80%;
             border-style: none;
             box-shadow: black;
         }
-
 
         .overlay{
             position: absolute;
@@ -669,22 +630,18 @@ iframe{
         }
 
 
-        /*ESTILOS PARA BANNER INDEX*/
-
-
+        /*BANNER INDEX*/
         .pBanner{
             align-self: center;
             color: #ffffff;
-            font-size: 27px;
+            font-size: 24px;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
             font-style: italic;
-            text-shadow: 13px 13px 8px rgb(0, 0, 0);
+            text-shadow: 10px 10px 6px rgb(0, 0, 0);
         }
 
-
-        /*ESTILOS PARA FOOTER*/
-
+        /*FOOTER*/
         .footerLogo{
             display: flex;
             flex-direction: row;
@@ -697,7 +654,6 @@ iframe{
             height: 15rem;
             width: 15rem;
         }
-
 
         .footEnlaces{
             display: none;
@@ -718,12 +674,7 @@ iframe{
         }
 
 
-
-
-
-        /*ESTILOS PARA PAGE DESTINOS*/
-
-
+        /*CARDS DESTINOS*/
         .containerCards{
             display: flex;
             flex-direction: row;
@@ -731,24 +682,12 @@ iframe{
             margin: 3rem 0rem 3rem 0rem;
         }
         
-
         .styleCard img{
             height: 14rem !important;
             width: 20rem;
         }
 
-
-        .pBanner{
-            align-self: center;
-            color: #ffffff;
-            font-size: 29px;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            font-style: italic;
-            text-shadow: 15px 15px 10px rgb(0, 0, 0);
-        }
-    
-
+        /*TITULO SECTION CONTACTO*/
         .h3Contacto{
             font-size: 2rem;
             font-style: italic;
@@ -758,12 +697,7 @@ iframe{
             padding-top: 0px !important;
         }
 
-
-
-
-
-        /*ESTILOS PARA NOSOTRAS*/
-
+        /*TITULO SECTION NOSOTRAS*/
         .pSectionnos{
             font-size: 14px;
             font-style: italic;
@@ -772,7 +706,7 @@ iframe{
             text-decoration: none;
         }
         
-
+        /*CAROUSEL NOSOTRAS*/
         .imgCarousel img{
             position: cover;
             height: 25rem;
@@ -788,8 +722,6 @@ iframe{
         
 
 
-
-
 }
 
 
@@ -797,6 +729,8 @@ iframe{
 
 /*RESOLUCION PARA DISPOSITIVOS MOVILES PEQUEÑOS*/
 @media(min-width: 576px) and (max-width: 767px){
+
+        /*TITULO SECTION NOSOTRAS*/
         .pSectionnos{
             font-size: 11px;
             font-style: italic;
@@ -805,7 +739,7 @@ iframe{
             text-decoration: none;
         }
     
-
+        /*NAV*/
         .logoYnav{
             display: flex;
             flex-flow: row;
@@ -839,7 +773,6 @@ iframe{
             animation-duration: 2s;
         }
 
-
         .itemLi a{
             color: #ffffff !important;
             font-size: 15px;
@@ -852,7 +785,7 @@ iframe{
             text-shadow: 5px 5px 5px rgb(0, 0, 0);
         }
 
-
+        /*TITULO Y SUBTITULO HEADER*/
         h1{
             color:#ffffff;
             font-style: italic;
@@ -863,7 +796,6 @@ iframe{
             animation-duration: 20s;
             margin-top: 9rem;
         }
-
 
         .ph1{
             color:#ffffff;
@@ -876,7 +808,7 @@ iframe{
         }
 
 
-        /*ESTILOS PARA TIT DE LA SECTION INDEX*/
+        /*TITULO SECTION*/
 
         .tituloSection{
             height: 12rem;
@@ -907,7 +839,6 @@ iframe{
             padding-top: 0px !important;
         }
 
-
         .h2Section:hover{
             transition: all .3s;
             color:#fff1e8 !important;
@@ -916,7 +847,7 @@ iframe{
 
 
         
-        /*ESTILOS PARA SECTION INDEX*/ 
+        /*IMAGENES INDEX*/ 
 
         .contenedorHije{
             display: flex;
@@ -929,7 +860,7 @@ iframe{
 
         .contenedorHije img{
             height: 16rem;
-            width: 80vw;
+            width: 75%;
             border-style: none;
             border-width: 4px; 
             box-shadow: black;
@@ -939,7 +870,7 @@ iframe{
         .overlay{
             position: absolute;
             height: 16rem;
-            width: 80vw;
+            width: 75%;
             opacity: 0;
             transition: .5s ease;
             background-color: #ffd6ba;
@@ -968,7 +899,7 @@ iframe{
         }
 
 
-        /*ESTILOS PARA BANNER INDEX*/
+        /*BANNER INDEX*/
 
         .banNer{
             display: flex;
@@ -1051,8 +982,8 @@ iframe{
             padding: 1rem;
         }
 
-        /*ESTILOS PARA PAGE DESTINOS*/
 
+        /*CARDS DESTINOS*/
 
         .containerCards{
             display: flex;
@@ -1069,7 +1000,7 @@ iframe{
 
         }
 
-
+        /*TITULO BANNER*/
         .pBanner{
             align-self: center;
             color: #ffffff;
@@ -1080,7 +1011,7 @@ iframe{
             text-shadow: 15px 15px 10px rgb(0, 0, 0);
         }
     
-
+        /*TITULO SECTION CONTACTO*/
         .h3Contacto{
             font-size: 2rem;
             font-style: italic;
@@ -1092,7 +1023,7 @@ iframe{
     
 
 
-        /*ESTILOS PARA NOSOTRAS*/
+        /*TITULO SECTION NOSOTRAS*/
 
         .pSectionnos{
             font-size: 12px;
@@ -1102,7 +1033,7 @@ iframe{
             text-decoration: none;
         }
         
-
+        /*CAROUSEL NOSOTRAS*/
         .imgCarousel img{
             position: cover;
             height: 25rem;
@@ -1116,13 +1047,13 @@ iframe{
             text-align: center;
         }
         
+        /*TITULO CONTACTO*/
         .h3Contacto{
             font-size: 2rem;
             font-style: italic;
             color: #ffffff;
             padding-top: 0rem !important;
             text-align: center;
-    
         }
         
         .h3Contacto:hover{
@@ -1139,13 +1070,14 @@ iframe{
 
 /*RESOLUCION PARA TABLETS*/
 @media(min-width: 768px) and (max-width: 991px){
-
+    /*LISTA MENU NAV*/
     .itemLi a{
         color: #ffffff !important;
         font-size: 18px;
         align-items: center;
     }
 
+    /*TITULO HEADER*/
     h1{
         color:#ffffff;
         font-style: italic;
@@ -1157,6 +1089,7 @@ iframe{
         margin-top: 9rem;
     }
 
+    /*IMAGENES INDEX*/
     .contenedorHije{
         display: flex;
         flex-direction: column;
@@ -1167,17 +1100,16 @@ iframe{
     }
 
     .contenedorHije img{
-        height: 15rem;
+        height: 17rem;
         width: 18rem;
         border-style: none;
         border-width: 4px; 
         box-shadow: black;
     }
 
-
     .overlay{
         position: absolute;
-        height: 15rem;
+        height: 17rem;
         width: 18rem;
         opacity: 0;
         transition: .5s ease;
@@ -1186,21 +1118,20 @@ iframe{
         border-width: 4px;
     }
 
-
     .contenedorHije:hover .overlay {
         opacity: 0.6;
         transform: scale(1);
         transition: transform 700ms, opacity 700ms;
     }
 
-
+    /*CARDS DESTINOS*/
     .containerCards{
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
 
-
+    /*SECTION NOSOTRAS*/
     .pSectionnos{
         font-size: 1rem;
         font-style: italic;
@@ -1209,7 +1140,7 @@ iframe{
         text-decoration: none;
     }
 
-
+    /*CAROUSEL NOSOTRAS*/
     .imgCarousel img{
         position: cover;
         height: 25rem;
@@ -1223,6 +1154,7 @@ iframe{
         text-align: center;
     }
 
+    /*TITULO SECTION CONTACTO*/
     .h3Contacto{
         font-size: 40px;
         font-style: italic;
@@ -1244,6 +1176,7 @@ iframe{
 
 
 @media(min-width: 992px) and (max-width: 1400px){
+        /*NAV*/
         .logoYnav{
             display: flex;
             flex-flow: row;
@@ -1291,7 +1224,7 @@ iframe{
         }
 
         
-
+        /*CARDS DESTINOS*/
         .containerCards{
             display: flex;
             flex-direction: row;
@@ -1299,12 +1232,12 @@ iframe{
             margin: 3rem 0rem 3rem 0rem;
         }
         
-
         .styleCard img{
             height: 13rem !important;
             width: 20rem;
         }
 
+        /*BANNER*/
         .pBanner{
             align-self: center;
             color: #ffffff;
@@ -1315,7 +1248,7 @@ iframe{
             text-shadow: 15px 15px 10px rgb(0, 0, 0);
         }
 
-
+        /*TITULO SECTION*/
         .h3Contacto{
             font-size: 3rem;
             font-style: italic;
